@@ -1,0 +1,151 @@
+{
+  "configVersion": 1,
+  "timestamp": 1723998745091,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/153.31ec34ff3894e500.js",
+        "/896.181c333646a77265.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.e8513ef8741a6de1.js",
+        "/manifest.webmanifest",
+        "/polyfills.bf0e14fc177f116d.js",
+        "/runtime.4f7e56beaff66d86.js",
+        "/scripts.58c791d2c0f8b5e0.js",
+        "/styles.3343ca0d99a06053.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/AkayaKanadaka-Regular.740314625ebd339e.woff",
+        "/AkayaKanadaka-Regular.8e94d84a23cfe239.svg",
+        "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.eot",
+        "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.svg",
+        "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.ttf",
+        "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.woff",
+        "/assets/i18n/en.json",
+        "/assets/i18n/od.json",
+        "/assets/icons/3dots.webp",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/lang.webp",
+        "/assets/icons/whatsapp.svg",
+        "/assets/images/category/ganeshpooja.webp",
+        "/assets/images/category/ishanpooja.webp",
+        "/assets/images/category/satyasanatan.webp",
+        "/assets/images/home/homebanner.webp",
+        "/assets/images/kalas-stambh.webp",
+        "/assets/images/satyasanatan-2.webp",
+        "/assets/images/satyasanatan.webp",
+        "/assets/images/vector.png",
+        "/assets/lib/css/font-awesome.css",
+        "/assets/lib/css/font-awesome.min.css",
+        "/assets/lib/fonts/FontAwesome.otf",
+        "/assets/lib/fonts/fontawesome-webfont.eot",
+        "/assets/lib/fonts/fontawesome-webfont.svg",
+        "/assets/lib/fonts/fontawesome-webfont.ttf",
+        "/assets/lib/fonts/fontawesome-webfont.woff",
+        "/assets/lib/fonts/fontawesome-webfont.woff2",
+        "/fontawesome-webfont.8a7cb27d142e3e19.ttf",
+        "/fontawesome-webfont.b91c78f31c3adc41.svg",
+        "/fontawesome-webfont.cf011583fb81df9f.woff",
+        "/fontawesome-webfont.e9955780856cf8aa.woff2",
+        "/kalas-stambh.bcc1edd86bf4631f.webp"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/153.31ec34ff3894e500.js": "c7acdf40f8f2d392f8edfe9ecca3b30fe19192e0",
+    "/896.181c333646a77265.js": "0c4cb400902dc6daf1001c350a33dafafe1a8f2f",
+    "/AkayaKanadaka-Regular.740314625ebd339e.woff": "ec12b0b98640ff2adf625c3263c32c2484dd96de",
+    "/AkayaKanadaka-Regular.8e94d84a23cfe239.svg": "9ecef4d2b90e99f160d4176978f7ca8d7d54cb8c",
+    "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.eot": "5c8060d528179507488bf8555768f38de401c295",
+    "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.svg": "9ecef4d2b90e99f160d4176978f7ca8d7d54cb8c",
+    "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.ttf": "8b20df1f73aa9030ad4771ffd0c55e1758e45086",
+    "/assets/fonts/Akaya_Kanadaka/AkayaKanadaka-Regular.woff": "ec12b0b98640ff2adf625c3263c32c2484dd96de",
+    "/assets/i18n/en.json": "b68e7e45eb768787448c7afd680e0339d0825bc6",
+    "/assets/i18n/od.json": "585eb7847a55f94265761a3a6450e1b974607cab",
+    "/assets/icons/3dots.webp": "50054f3b3c893721d1343e49ad1203946c617d74",
+    "/assets/icons/icon-128x128.png": "8eb40986ef379e4e1ae52eb428bf6100c6a33167",
+    "/assets/icons/icon-144x144.png": "d84f6e6442388ca9d4f1493bf6202ee686b9c881",
+    "/assets/icons/icon-152x152.png": "d6eca72030b7cd4f9225619c80f121f39b767eae",
+    "/assets/icons/icon-192x192.png": "4d465b0bad9f146d1793529ed172a53a37c6615b",
+    "/assets/icons/icon-384x384.png": "b2ae41a2b7901dd50036c6291a2903f0f86fb1e1",
+    "/assets/icons/icon-512x512.png": "802578e138e7a846531a1b61be4c870385038ae5",
+    "/assets/icons/icon-72x72.png": "54b5fecf6cede6451fcf0ee3597d6dd4c94caa64",
+    "/assets/icons/icon-96x96.png": "9497cc232915ca81866b5452bfaa2ace41b9a739",
+    "/assets/icons/lang.webp": "570415073c26cb9299489e1411bc2e86de0b3544",
+    "/assets/icons/whatsapp.svg": "f462832057c8225bb692070c5b4629e38d6cd53d",
+    "/assets/images/category/ganeshpooja.webp": "967ff6b9a28c02384f420da9db9b4f2fdbfe790b",
+    "/assets/images/category/ishanpooja.webp": "5e114d9e32c14489d60c9b977e4250d4f6b2d714",
+    "/assets/images/category/satyasanatan.webp": "924985e0411f388625f13fd03929f41823297aaf",
+    "/assets/images/home/homebanner.webp": "4f9899380956fb40bf97a8d7e0a6ec61cf946152",
+    "/assets/images/kalas-stambh.webp": "4527d59b6566a0b7d0d919edcf900a8943930fe4",
+    "/assets/images/satyasanatan-2.webp": "225d681fd982b5cc67251a66606a473dc7bc0b67",
+    "/assets/images/satyasanatan.webp": "924985e0411f388625f13fd03929f41823297aaf",
+    "/assets/images/vector.png": "f2d3e279ded0d5ff784dae4d6a3a6ac5ce6693aa",
+    "/assets/lib/css/font-awesome.css": "3655f1fdf1e584c4d8e8d39026093ca306a5a341",
+    "/assets/lib/css/font-awesome.min.css": "88af80502c44cd52ca81ffe7dc7276b7eccb06cf",
+    "/assets/lib/fonts/FontAwesome.otf": "048707bc52ac4b6563aaa383bfe8660a0ddc908c",
+    "/assets/lib/fonts/fontawesome-webfont.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/assets/lib/fonts/fontawesome-webfont.svg": "b5483b11f8ba213e733b5b8af9927a04fec996f6",
+    "/assets/lib/fonts/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/assets/lib/fonts/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/assets/lib/fonts/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/favicon.ico": "54b5fecf6cede6451fcf0ee3597d6dd4c94caa64",
+    "/fontawesome-webfont.8a7cb27d142e3e19.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/fontawesome-webfont.b91c78f31c3adc41.svg": "b5483b11f8ba213e733b5b8af9927a04fec996f6",
+    "/fontawesome-webfont.cf011583fb81df9f.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/fontawesome-webfont.e9955780856cf8aa.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/index.html": "ecea33393119925f4e91895773768f2b71944a3b",
+    "/kalas-stambh.bcc1edd86bf4631f.webp": "4527d59b6566a0b7d0d919edcf900a8943930fe4",
+    "/main.e8513ef8741a6de1.js": "6cc116e6e6ea3d808fc9e6991f225666b7d19855",
+    "/manifest.webmanifest": "358e0362fa2f753486dc6b02866dfbca2b9de1ae",
+    "/polyfills.bf0e14fc177f116d.js": "6b2562bf8eb963d1f3a69df0582bfa21647477b0",
+    "/runtime.4f7e56beaff66d86.js": "b5db4e55784b7ad9d937c8c6b889b5a7daf657f0",
+    "/scripts.58c791d2c0f8b5e0.js": "a8ebfcaf3b1423e7334db743cc1afa25a3357fd0",
+    "/styles.3343ca0d99a06053.css": "076d35653b1783afd502707c86cb5d6cc25f8cb3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

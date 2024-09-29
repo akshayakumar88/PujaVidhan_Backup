@@ -1,0 +1,37 @@
+{
+    "Common": {
+        "preview_list": "Preview List"
+    },
+    "Login_page": {
+        "username": "Username",
+        "password": "Password",
+        "login": "Login",
+        "register": "Register",
+        "login_failed": "Login failed",
+        "dont_have_account": "Don't have an account?",
+        "errors": {
+            "username_req": "Username is required",
+            "password_req": "Password is required",
+            "password_minlength": "Password must be at least 6 characters"
+        }
+    },
+    "Register_page": {
+        "your_name": "Your name",
+        "username": "Username",
+        "password": "Password",
+        "email": "Email",
+        "login": "Login",
+        "register": "Register",
+        "register_failed": "Register failed!",
+        "have_account": "Have an account?",
+        "reg_success": "Your registration is successful. Please login.",
+        "errors": {
+            "your_name_req": "Name is required",
+            "username_req": "Username is required",
+            "password_req": "Password is required",
+            "password_minlength": "Password must be at least 6 characters",
+            "email_req": "Email is required",
+            "email_valid": "Email must be a valid email address"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Common": {
+        "preview_list": "ପୂର୍ବାବଲୋକନ ତାଲିକା"
+    },
+    "Login_page": {
+        "username": "ଉପଯୋଗକର୍ତ୍ତା ନାମ",
+        "password": "ପାସୱାର୍ଡ",
+        "login": "ଲଗ୍ଇନ୍ କରନ୍ତୁ",
+        "register": "ପଞ୍ଜିକରଣ କରନ୍ତୁ",
+        "login_failed": "ଲଗ୍ଇନ୍ ବିଫଳ",
+        "dont_have_account": "କୌଣସି ଖାତା ନାହିଁ?",
+        "errors": {
+            "username_req": "ଉପଯୋଗକର୍ତ୍ତା ନାମ ଆବଶ୍ୟକ|",
+            "password_req": "ପାସୱାର୍ଡ ଆବଶ୍ୟକ|",
+            "password_minlength": "ପାସୱାର୍ଡ ଅତିକମରେ 6 ଅକ୍ଷର ହେବା ଜରୁରୀ|"
+        }
+    },
+    "Register_page": {
+        "your_name": "ତୁମର ନାମ",
+        "username": "ଉପଯୋଗକର୍ତ୍ତା ନାମ",
+        "password": "ପାସୱାର୍ଡ",
+        "email": "ଇମେଲ୍ କରନ୍ତୁ",
+        "login": "ଲଗ୍ଇନ୍ କରନ୍ତୁ",
+        "register": "ପଞ୍ଜିକରଣ କରନ୍ତୁ",
+        "register_failed": "ରେଜିଷ୍ଟର ବିଫଳ ହେଲା!",
+        "have_account": "ଯଦି ଖାତା ଅଛି?",
+        "reg_success": "ତୁମର ପଞ୍ଜୀକରଣ ସଫଳ ହୋଇଛି| ଦୟାକରି ଲଗ୍ଇନ୍ କରନ୍ତୁ|",
+        "errors": {
+            "your_name_req": "ନାମ ଆବଶ୍ୟକ",
+            "username_req": "ଉପଯୋଗକର୍ତ୍ତା ନାମ ଆବଶ୍ୟକ|",
+            "password_req": "ପାସୱାର୍ଡ ଆବଶ୍ୟକ|",
+            "password_minlength": "ପାସୱାର୍ଡ ଅତିକମରେ 6 ଅକ୍ଷର ହେବା ଜରୁରୀ|",
+            "email_req": "ଇମେଲ୍ ଆବଶ୍ୟକ|",
+            "email_valid": "ଏକ ବୈଧ ଇମେଲ୍ ଦିଅନ୍ତୁ|"
+        }
+    }
+}
