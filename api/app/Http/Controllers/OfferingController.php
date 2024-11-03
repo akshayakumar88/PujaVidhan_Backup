@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Catagory;
 use App\Models\Item;
 use App\Models\Report;
+use App\Models\YajmaanReport;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 use AshAllenDesign\ShortURL\Facades\ShortURL;
@@ -45,6 +46,31 @@ class OfferingController extends Controller
             $report->save();    
         }
         $url = URL::temporarySignedRoute('share-list', now()->addSeconds(3000),$key);
+        $shortURLObject = ShortURL::destinationUrl($url)->make();
+        $shortURL = $shortURLObject->default_short_url;
+        return response()->json([
+            'shortURL' => $shortURL,
+            'message' => 'success'
+        ]);
+    }
+    public function saveYajmaanList(Request $request){
+        Log::info($request);
+        $key = uniqid('yajmaan_');
+        for($n=0;$n<(count(json_decode($request->getContent(), true)));$n++){
+            $report = new YajmaanReport([
+                'report_key' => $key,
+                'yajmaan_name' => $request[$n]['yajmaan_name'],
+                'relation' => $request[$n]['relatives'][0]['relation'],
+                'relname' => $request[$n]['relatives'][0]['relname'],
+                'toexp' => $request[$n]['relatives'][0]['toexp'],
+                'poexp' => $request[$n]['relatives'][0]['poexp'],
+                'moexp' => $request[$n]['relatives'][0]['moexp'],
+                'yajmaan_street' => $request[$n]['yajmaan_street'],
+                'yajmaan_location' => $request[$n]['yajmaan_location']
+            ]);
+            $report->save();    
+        }
+        $url = URL::temporarySignedRoute('share-yajmaan-list', now()->addSeconds(3000),$key);
         $shortURLObject = ShortURL::destinationUrl($url)->make();
         $shortURL = $shortURLObject->default_short_url;
         return response()->json([

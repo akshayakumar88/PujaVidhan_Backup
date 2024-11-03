@@ -16,6 +16,7 @@ Route::controller(OfferingController::class)->group(function () {
     Route::get('getCatagoryList', 'getCatagoryList');
     Route::get('getItemList/{catId}', 'getItemList');
     Route::post('saveOfferingList', 'saveOfferingList');
+    Route::post('saveYajmaanList', 'saveYajmaanList');
     Route::get('clean_cron', 'cleanData');
     Route::get('get-data', 'getData');
     Route::get('getPurohitList/{username}', 'getPurohitList');

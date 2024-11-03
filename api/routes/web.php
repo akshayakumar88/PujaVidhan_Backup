@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Report;
+use App\Models\YajmaanReport;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\CatagoryController;
@@ -36,6 +37,16 @@ Route::get('/report/offeringlist/{id}', function (\Illuminate\Http\Request $requ
     Log::info($list);
     return view('report', ['list' => $list]);
 })->name('share-list')->middleware('signed');
+
+Route::get('/report/yajmaanlist/{id}', function (\Illuminate\Http\Request $request, $id) {
+    // if(!$request->hasValidSignature()){
+    //     abort(401);
+    // }
+    Log::info('$id= '.$id);
+    $list = YajmaanReport::where('report_key', $id)->get();
+    Log::info($list);
+    return view('yajmaan_report', ['list' => $list]);
+})->name('share-yajmaan-list')->middleware('signed');
 
 // Route::get('/playground', function () {
 //     $url = URL::temporarySignedRoute('share-list', now()->addSeconds(30),123);
